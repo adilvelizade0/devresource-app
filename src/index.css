@@ -1,0 +1,41 @@
+html {
+  scroll-behavior: smooth;
+  position: relative;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+  font-family: IBM Plex Sans;
+  background-color: #fafcfd;
+  transition: all 0.5s ease-in-out;
+}
+
+body p {
+  transition: all 0.5s ease-in-out;
+}
+
+#modeToggle {
+  width: 100%;
+  position: absolute;
+}
+∏ #modeToggle button[aria-hidden="true"] {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+/* @media screen and (max-width: 600px) {
+  input {
+    width: 50% !important;
+    height: 55px !important;
+    font-size: 15px !important;
+    padding-left: 65px !important;
+  }
+  #searchBox {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+  }
+} */
